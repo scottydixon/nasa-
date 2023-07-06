@@ -1,11 +1,60 @@
-background: url("https://www.federaltimes.com/resizer/ICBKnupfHj_qsiB0ycajrw3tIQU=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/T3CG5NHNJZHSVJVSCJ4WFA7GVI.jpg")
-.social-media {
-    border: width: 450px height: 850px;
-    background-color: rgb(161, 165, 165);
+body{
+        background-image: url("https://www.federaltimes.com/resizer/ICBKnupfHj_qsiB0ycajrw3tIQU=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/T3CG5NHNJZHSVJVSCJ4WFA7GVI.jpg"); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 850px 450px;
+}  
+
+.footer {
+    margin-top: 150px;
+    width:100%;
+    padding: 100px 15%;
+    color:#efefef;
+    dislay: flex;
+}
+
+section {
+    text-align: justify;
+    padding: 0 2em 2em;
+}
+
+
+
+h1 {
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+
+
+.col-1 {
+    display: inline-table;
+    width: 20%;
+}
+.social-media {
+    border: width: 450px height: 850px
+    background-color rgb(161, 165, 165)
+    text-align: center
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+};
+
+.col-2 {
+    display: inline-table;
+    width: 20%;  
+}
+
+.office-hours {
+    border: width: 450px height: 850px
+    background-color rgb(161, 165, 165)
+    text-align: center
+    display: flex
+    flex-direction: row
+    justify-content: space-between
 }
 
 
@@ -23,6 +72,7 @@ p {
     background-color: #e6f4ff;
     padding-top: 2%;
     padding-bottom: 2%;
+    display: flex
 }
 
 
