@@ -29,6 +29,7 @@ body{
 .footer {
     text-align: start;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 30px;
     margin-right: auto;
